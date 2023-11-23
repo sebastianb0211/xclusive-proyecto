@@ -1,12 +1,11 @@
-import Header from "../components/Header"
-
+import Carrito from "../components/Carrito"
+import Menu from "../components/Menu"
 
 function Inicio() {
   return (
     <div>
-      
-      <Header/>
-
+      <Menu/>
+      <Carrito/>
     </div>
   )
 }
