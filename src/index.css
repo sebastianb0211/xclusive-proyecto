@@ -1,137 +1,4 @@
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 *{
   box-sizing: border-box;
   padding: 0%;
@@ -277,6 +144,7 @@
 .form .switch {
   font-size: 13px;
   color: rgb(255, 255, 255);
+  display: flex;
 }
 
 .form .switch .signup_tog {
@@ -284,7 +152,7 @@
   cursor: pointer;
   text-decoration: underline;
   color: #DFAF67;
-  margin-left: 15px;
+  margin-left: 10px;
 }
 
 .container-login  #signup_toggle {

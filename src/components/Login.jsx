@@ -17,7 +17,7 @@ function Login() {
             <input placeholder="Contraseña" className="input" type="text" />
             <Link to={"/Inicio"} className="btn">Ingresar</Link>
             <span className="switch">
-             No tienes cuenta con nosotros
+             No tienes cuenta con nosotros?
               <label className="signup_tog" htmlFor="signup_toggle">
                 Registarse
               </label>
@@ -34,7 +34,7 @@ function Login() {
               className="input"
               type="text"
             />
-            <button className="btn">Registrarse</button>
+            <button type='button' className="btn">Registrarse</button>
             <span className="switch">
               Ya tienes cuenta?
               <label className="signup_tog" htmlFor="signup_toggle">

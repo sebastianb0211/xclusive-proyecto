@@ -5,7 +5,7 @@ function Inicio() {
   return (
     <div>
       <Menu/>
-      <Carrito/>
+      
     </div>
   )
 }
