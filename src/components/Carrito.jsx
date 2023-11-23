@@ -3,6 +3,7 @@ function Carrito() {
   
   return (
     <div>
+      aaaaaa
       <Menu/>
     </div>
   )
