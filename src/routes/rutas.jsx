@@ -1,5 +1,6 @@
 import Home from "../views/Home";
 import Inicio from "../views/Inicio";
+import Carrito from "../components/Carrito";
 
 
 export let rutas = [
@@ -11,5 +12,9 @@ export let rutas = [
     {
         path: "/Inicio",
         element: <Inicio />,
-    }
+    },
+    {
+        path: "/carrito",
+        element: <Carrito />,
+    },
 ]
