@@ -1,11 +1,10 @@
-import Header from "../components/Header"
+
+import Login from "../components/Login";
+
 function Home() {
   return (
-    <div>
-      <Header/>
-
-    </div>
-  )
+    <Login/>
+  );
 }
 
-export default Home
+export default Home;
